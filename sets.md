@@ -13,9 +13,15 @@ What does this mean? Let me illustrate with an example. I have a string value I 
 
 These values can then have a hashing function performed on them. That is to say, the computer will perform a mathmatical function on our string value to make a unique hash value from it.
 
+![Hash Function Image](visual_assets/hash_function.jpeg)
+
 This hash value is what allows such efficient lookups, because the value we're looking for directly corresponds through the hash function with the element in the set that we're trying to find it. When multiple hashes are used to store values (like in a set) they are often referred to as a hash map.
 
 This is why by definition sets do not allow duplicates. You can't have two hash values that are the exact same, but correspond to different elements of the same value.
+
+Below is an gif displaying its own hash value. When you understand that hash values have to be unique identifiers, you can better understand their benefits and requirements.
+
+![Hash Value Animation](visual_assets/hash_value_animation.gif)
 
 Why is it unordered? A set does not maintain a specific order unlike stacks, arrays, etc. This is due to the previously mentioned function of hashing elements of a set.
 
