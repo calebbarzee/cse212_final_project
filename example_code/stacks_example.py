@@ -1,5 +1,6 @@
 def main():
-    """In this stack data structure example we'll be using an python list that we'll treat like a stack. 
+    """
+    In this stack data structure example we'll be using an python list that we'll treat like a stack. 
 
     It's important to note that in python you can reference the last index in a list with "[-1]".
     Another way of doing this is by using the len() method Ex. "[len(stack)-1]"

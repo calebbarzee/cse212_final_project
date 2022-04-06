@@ -40,3 +40,6 @@ Another benefit of a set is its inherent duplicate removal. There can't be two o
 ## Problem to Solve
 
 [Sets Problem](problem_code/sets_problem.py)
+
+When you are finished here is the solution code.
+[Sets Solution](problem_code/sets_solution.py)

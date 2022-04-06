@@ -37,14 +37,14 @@ def main():
 
     employees = dict()
     # Use the update() method to add items to the dictionary.
-    # Write your code here. #
 
-    # Check to make sure you added all employees #
+    # Solution Code #
+    for i in range(len(employee_id_list)):
+        employees.update({employee_id_list[i]: employee_name_list[i]})
     print(employees)
 
     # Refer to a specific employee by key, then use the pop() method to remove both key and value.
-
-    # End of code input section. #
+    employees.pop(13898753)
     print(employees)
 
 

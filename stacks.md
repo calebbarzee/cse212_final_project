@@ -21,3 +21,6 @@ Stacks are used in many ways, one of the most common use cases is the fuction ca
 ## Problem to Solve
 
 [Stacks Problem](problem_code/stacks_problem.py)
+
+When you are finished here is the solution code.
+[Stacks Solution](problem_code/stacks_solution.py)
