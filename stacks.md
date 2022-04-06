@@ -14,6 +14,10 @@ Stacks also have good performance in storing and accessing items. This is due to
 
 ## Example
 
-Stacks are used in many ways, one of the most common use cases is the fuction call stack. This is the memory structure used to represent what the order of execution will be. When running the sample program (stacks_example.py), notice the order in which functions are called and executed. The print statements help illustrate the call stack principle.
+Stacks are used in many ways, one of the most common use cases is the fuction call stack. This is the memory structure used to represent what the order of execution will be. When running the example program notice the order in which functions are called and executed. The print statements help illustrate the call stack principle.
+
+[Stacks Example](example_code/stacks_example.py)
 
 ## Problem to Solve
+
+[Stacks Problem](problem_code/stacks_problem.py)

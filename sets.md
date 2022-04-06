@@ -35,4 +35,8 @@ Another benefit of a set is its inherent duplicate removal. There can't be two o
 
 ## Example
 
+[Sets Example](example_code/sets_example.py)
+
 ## Problem to Solve
+
+[Sets Problem](problem_code/sets_problem.py)

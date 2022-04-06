@@ -40,10 +40,10 @@ To traverse a binary tree using recursion you:
 Here is an animation illustrating one way to traverse a binary tree.
 ![Binary Tree Traversal Animation](visual_assets/binary_tree_traversal_animation.gif)
 
-See binary_trees_example.py
+[Binary Trees Example](example_code/binary_trees_example.py)
 
 ## Problem to Solve
 
 Complete the recursive function to build a binary tree given an array of ordered integers from least to greatest.
 
-See binary_trees_problem.py
+[Binary Trees Problem](problem_code/binary_trees_problem.py)
