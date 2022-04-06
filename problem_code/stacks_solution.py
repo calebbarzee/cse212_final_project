@@ -40,14 +40,18 @@ def space_function(my_stack):
 
 
 def secret_message(my_stack):
-    # Write the correct function calls here in order to spell out the secret message.
-    # Hint: It's a common programming example phrase
-    # Make sure to pass in my_stack, the previously initiated stack object, as a parameter.
-
-    # Your code goes here. #
-
-    # End of code input section. #
-
+    # Solution code is provided below.
+    d_function(my_stack)
+    l_function(my_stack)
+    r_function(my_stack)
+    o_function(my_stack)
+    w_function(my_stack)
+    space_function(my_stack)
+    o_function(my_stack)
+    l_function(my_stack)
+    l_function(my_stack)
+    e_function(my_stack)
+    h_function(my_stack)
     for i in reversed(range(len(my_stack.stack_items))):
         print(my_stack.remove_item())
 
