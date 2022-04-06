@@ -44,7 +44,7 @@ Here is an animation illustrating one way to traverse a binary tree.
 
 ## Problem to Solve
 
-Complete the recursive function to build a binary tree given an array of ordered integers from least to greatest.
+Complete the recursive function to rebalance a binary tree given the values from least to greatest.
 
 [Binary Trees Problem](problem_code/binary_trees_problem.py)
 

@@ -1,12 +1,14 @@
-"""
-CSE212 
-(c) BYU-Idaho
-09-Prove - Problems
-
-It is a violation of BYU-Idaho Honor Code to post or share this code with others or 
-to post it online.  Storage into a personal and private repository (e.g. private
-GitHub repository, unshared Google Drive folder) is acceptable.
-"""
+def main():
+    """
+    This example shows the basic structure of a binary search tree.
+    Each node is a subclass of the binary search tree class and holds
+    a distinct value as well as pointers to each of it's children.
+    """
+    my_bst = BST()
+    for i in range(0, 50, 5):
+        my_bst.insert(i)
+    for i in my_bst:
+        print(i)
 
 
 class BST:
@@ -46,10 +48,11 @@ class BST:
         node.  Otherwise, use _insert to recursively
         find the location to insert.
         """
+        # Enters data in root if root is null.
         if self.root is None:
             self.root = BST.Node(data)
         else:
-            self._insert(data, self.root)  # Start at the root
+            self._insert(data, self.root)
 
     def _insert(self, data, node):
         """
@@ -102,7 +105,6 @@ class BST:
                 return
             else:
                 return self._contains(data, node.right)
-        return False
 
     def __iter__(self):
         """
@@ -135,3 +137,7 @@ class BST:
             yield from self._traverse_forward(node.left)
             yield node.data
             yield from self._traverse_forward(node.right)
+
+
+if __name__ == "__main__":
+    main()
